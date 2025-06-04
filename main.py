@@ -17,6 +17,10 @@ def timer() -> None:
         play(obj)
 
         print(f"It's time to take a break!,you have finished {times} times!")
+        exit_ = input("exit?")
+        if exit_ == "yes" or exit_ == "y":
+            print("Goodbye!")
+            break
 
 
 def main() -> None:
